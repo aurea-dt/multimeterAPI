@@ -1,0 +1,61 @@
+<dmm name="/dev/ttyUSB0" speed="1200" settings="7N2" dataFormat="F V U">
+
+	<function type="DC" text="DC Voltage" units="V">
+		<range min="0" max="400"    units="mV" factor="0.001"></range>
+		<range min="0"   max="4"    units="V"  factor="1"></range>
+		<range min="4"   max="40"   units="V"  factor="1"></range>
+		<range min="40"  max="400"  units="V"  factor="1"></range>
+		<range min="400" max="1000" units="V"  factor="1"></range>
+	</function>
+	
+	
+	<function type="AC" text="AC Voltage" units="V">
+		<range min="0"   max="400" units="mV" factor="0.001"></range>
+		<range min="0"   max="4"   units="V"  factor="1"></range>
+		<range min="4"   max="40"  units="V"  factor="1"></range>
+		<range min="40"  max="400" units="V"  factor="1"></range>
+		<range min="400" max="750" units="V"  factor="1"></range>
+	</function>
+	
+	<function type="DC" text="DC Current" units="A">
+		<range min="0" max="400" units="uA" factor="0.000001"></range>
+		<range min="0" max="400" units="mA" factor="0.001"></range>
+		<range min="0" max="20"  units="A"  factor="1"></range>
+	</function>
+	
+	<function type="AC" text="AC Current" units="A">
+		<range min="0" max="400" units="uA" factor="0.000001"></range>
+		<range min="0" max="400" units="mA" factor="0.001"></range>
+		<range min="0" max="20"  units="A"  factor="1"></range>
+	</function>
+	
+	<function type="RES" text="Resistance" units="Ω" >
+		<range min="0"   max="400" units="ohm"  factor="1"></range>
+		<range min="0.4" max="4"   units="kohm" factor="1000"></range>
+		<range min="4"   max="40"  units="kohm" factor="1000"></range>
+		<range min="40"  max="400" units="kohm" factor="1000"></range>
+		<range min="0.4" max="4"   units="Mohm" factor="1000000"></range>
+		<range min="4"   max="40"  units="Mohm" factor="1000000"></range>
+	</function>
+	
+	<function type="FR" text="Frecuency" units="Hz">
+		<range min="0"   max="10"  units="KHz" factor="1000"></range>
+		<range min="10"  max="100" units="KHz" factor="1000"></range>
+		<range min="0.1" max="1"   units="MHz" factor="1000000"></range>
+		<range min="1"   max="10"  units="MHz" factor="1000000"></range>
+	</function>
+	
+	<function type="TEMP" text="Temperature" units="°C">
+		<range min="0" max="1200" units="^C" factor="1"></range>
+	</function>
+	
+	<function type="CAP" text="Capacitance" units="F">
+		<range min="0" max="100" units="uF" factor="0.000001"></range>
+	</function>
+	
+	<function type="IND" text="Inductance" units="H">
+		<range min="0" max="100" units="H" factor="1"></range>
+	</function>	
+	
+</dmm>
+
